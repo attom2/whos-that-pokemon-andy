@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/andys-whos-that-pokemon/static/css/main.ed3e9ed1.chunk.css",
+    "main.js": "/andys-whos-that-pokemon/static/js/main.1032884d.chunk.js",
+    "main.js.map": "/andys-whos-that-pokemon/static/js/main.1032884d.chunk.js.map",
+    "runtime-main.js": "/andys-whos-that-pokemon/static/js/runtime-main.d95469ed.js",
+    "runtime-main.js.map": "/andys-whos-that-pokemon/static/js/runtime-main.d95469ed.js.map",
+    "static/js/2.5f6ccf38.chunk.js": "/andys-whos-that-pokemon/static/js/2.5f6ccf38.chunk.js",
+    "static/js/2.5f6ccf38.chunk.js.map": "/andys-whos-that-pokemon/static/js/2.5f6ccf38.chunk.js.map",
+    "index.html": "/andys-whos-that-pokemon/index.html",
+    "precache-manifest.d98eb9cadf1653fb2383cb4e56f981d4.js": "/andys-whos-that-pokemon/precache-manifest.d98eb9cadf1653fb2383cb4e56f981d4.js",
+    "service-worker.js": "/andys-whos-that-pokemon/service-worker.js",
+    "static/css/main.ed3e9ed1.chunk.css.map": "/andys-whos-that-pokemon/static/css/main.ed3e9ed1.chunk.css.map",
+    "static/js/2.5f6ccf38.chunk.js.LICENSE.txt": "/andys-whos-that-pokemon/static/js/2.5f6ccf38.chunk.js.LICENSE.txt",
+    "static/media/EndCall3.mp3": "/andys-whos-that-pokemon/static/media/EndCall3.c3b1756b.mp3",
+    "static/media/HollowBellNotification.mp3": "/andys-whos-that-pokemon/static/media/HollowBellNotification.b5f3b04d.mp3",
+    "static/media/Header.scss": "/andys-whos-that-pokemon/static/media/Pokemon Solid.4197aed6.woff",
+    "static/media/whos-that-pokemon_.mp3": "/andys-whos-that-pokemon/static/media/whos-that-pokemon_.a684eaf3.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d95469ed.js",
+    "static/js/2.5f6ccf38.chunk.js",
+    "static/css/main.ed3e9ed1.chunk.css",
+    "static/js/main.1032884d.chunk.js"
+  ]
+}
