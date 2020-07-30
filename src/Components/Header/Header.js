@@ -26,7 +26,7 @@ const Header = () => {
           </NavLink>
           <NavLink
             activeClassName='current-location'
-            to='/game'
+            to='/andys-whos-that-pokemon'
           >
             <li>
               <button
