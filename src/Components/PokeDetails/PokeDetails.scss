@@ -35,5 +35,14 @@ figcaption {
 .pokeball-icon {
   height: (100vh/12);
   grid-column-start: 2;
-  grid-row-start: 2;
+  grid-row-start: 1;
+  
+}
+
+.easter-eggs {
+  display: grid;
+}
+
+.base-stats {
+
 }

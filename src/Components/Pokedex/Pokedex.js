@@ -11,6 +11,8 @@ const Pokedex = ({
   togglePokemonFavoriteStatus
 }) => {
   const [isShiny, setIsShiny] = useState(false);
+  const [counter, setCounter] = useState(0);
+  const [viewFavorites, setViewFavorites] = useState(false);
 
   const createPokeList = () => {
     const pokeList = allPokemon.map(pokemon => {
@@ -49,14 +51,17 @@ const Pokedex = ({
         <PokeDetails
           details={singlePokemon}
           isShiny={isShiny}
+          counter={counter}
+          viewFavorites={viewFavorites}
+          setViewFavorites={setViewFavorites}
         /> }
       </section>
       <div className="controller">
         <div className="d-pad-container">
           <div className="d-pad top" onClick={() => setIsShiny(shiny => !shiny)}></div>
-          <div className="d-pad left"></div>
+          <div className="d-pad left" onClick={() => setCounter(counter => counter - 1)}></div>
           <div className="d-pad middle"></div>
-          <div className="d-pad right"></div>
+          <div className="d-pad right" onClick={() => setCounter(counter => counter + 1)}></div>
           <div
             className="d-pad bottom"
             onClick={() => {
@@ -66,7 +71,12 @@ const Pokedex = ({
           </div>
         </div>
         <div className="control-buttons">
-          <div className="buttons">B</div>
+          <div 
+            className="buttons"
+            onClick={() => setViewFavorites(favorites => !favorites)}
+          >
+            B
+          </div>
           <div
             className="buttons"
             onClick={() => {
