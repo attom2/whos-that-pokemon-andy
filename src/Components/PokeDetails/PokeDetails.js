@@ -11,7 +11,7 @@ const PokeDetails = ({details, isShiny, counter, viewFavorites}) => {
   const statNames = details.stats.map(stat => stat.stat.name);
   const statNums = details.stats.map(stat => stat.base_stat);
   const favoritedPokemon = allPokemon.filter(allPokemon => allPokemon.isFavorite);
-  const favPokeNames = favoritedPokemon.map(pokemon => pokemon.name + '\n');
+  const favPokeNames = favoritedPokemon.map(pokemon => pokemon.name + '  ');
 
   return (
     <figure>
@@ -43,25 +43,25 @@ const PokeDetails = ({details, isShiny, counter, viewFavorites}) => {
              <b>Type:</b><br/>{pokemonType}
            </p>
          </figcaption>
-       </>}
-      <section className="easter-eggs">
-        {counter >= 1 && 
+         <section className="easter-eggs">
+           {counter >= 1 && 
       <div className="base-stats">
         <div>Base Stats: </div> 
         <div>{statNums[counter]} {statNames[counter]}</div>
         {counter < statNames.length ? <div>◄ ►</div> : <div>◄</div>}
       </div>}
-        {allPokemon[singlePokemon.id - 1].isFavorite &&
+           {allPokemon[singlePokemon.id - 1].isFavorite &&
         <img
           className='pokeball-icon'
           src={pokeball}
           alt='A Pokeball. This pokemon is favorited'
         />}
-      </section>
-      {viewFavorites && favPokeNames.length && 
+         </section>
+       </>}
+      {viewFavorites && 
         <> 
-          <b>Your Favorites: </b> 
-          <div>{favPokeNames}</div>
+          <h3><b>Your Favorite Pokemon: </b> </h3>
+          <p>{favPokeNames}</p>
           <p>Press B for ◄ </p>
         </>}
     </figure>
