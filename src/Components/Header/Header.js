@@ -5,7 +5,7 @@ import './Header.scss';
 
 const Header = () => {
   const [location, setLocation] = useState("Who's That Pokémon?");
-
+  
   return (
     <header className="nav-header">
       <h1 className={`pokemon-title ${location}`}>{location}</h1>

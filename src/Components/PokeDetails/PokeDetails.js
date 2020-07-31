@@ -59,11 +59,12 @@ const PokeDetails = ({details, isShiny, counter, viewFavorites}) => {
          </section>
        </>}
       {viewFavorites && 
-        <> 
+        <div className="favorites"> 
           <h3><b>Your Favorite Pokemon: </b> </h3>
           <p>{favPokeNames}</p>
-          <p>Press B for ◄ </p>
-        </>}
+          <p className="back-msg">Press B to go ◄ </p>
+        </div>}
+        
     </figure>
   );
 };
