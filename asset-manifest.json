@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/andys-whos-that-pokemon/static/css/main.bfe849b9.chunk.css",
-    "main.js": "/andys-whos-that-pokemon/static/js/main.49eae1a8.chunk.js",
-    "main.js.map": "/andys-whos-that-pokemon/static/js/main.49eae1a8.chunk.js.map",
+    "main.css": "/andys-whos-that-pokemon/static/css/main.3fab2761.chunk.css",
+    "main.js": "/andys-whos-that-pokemon/static/js/main.924ec006.chunk.js",
+    "main.js.map": "/andys-whos-that-pokemon/static/js/main.924ec006.chunk.js.map",
     "runtime-main.js": "/andys-whos-that-pokemon/static/js/runtime-main.d95469ed.js",
     "runtime-main.js.map": "/andys-whos-that-pokemon/static/js/runtime-main.d95469ed.js.map",
     "static/js/2.5f6ccf38.chunk.js": "/andys-whos-that-pokemon/static/js/2.5f6ccf38.chunk.js",
     "static/js/2.5f6ccf38.chunk.js.map": "/andys-whos-that-pokemon/static/js/2.5f6ccf38.chunk.js.map",
     "index.html": "/andys-whos-that-pokemon/index.html",
-    "precache-manifest.eb6370d3c47d341b0adcd2e81f8eaa7b.js": "/andys-whos-that-pokemon/precache-manifest.eb6370d3c47d341b0adcd2e81f8eaa7b.js",
+    "precache-manifest.396764d2a6ef1d7921ffddd1518f587c.js": "/andys-whos-that-pokemon/precache-manifest.396764d2a6ef1d7921ffddd1518f587c.js",
     "service-worker.js": "/andys-whos-that-pokemon/service-worker.js",
-    "static/css/main.bfe849b9.chunk.css.map": "/andys-whos-that-pokemon/static/css/main.bfe849b9.chunk.css.map",
+    "static/css/main.3fab2761.chunk.css.map": "/andys-whos-that-pokemon/static/css/main.3fab2761.chunk.css.map",
     "static/js/2.5f6ccf38.chunk.js.LICENSE.txt": "/andys-whos-that-pokemon/static/js/2.5f6ccf38.chunk.js.LICENSE.txt",
     "static/media/EndCall3.mp3": "/andys-whos-that-pokemon/static/media/EndCall3.c3b1756b.mp3",
     "static/media/HollowBellNotification.mp3": "/andys-whos-that-pokemon/static/media/HollowBellNotification.b5f3b04d.mp3",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.d95469ed.js",
     "static/js/2.5f6ccf38.chunk.js",
-    "static/css/main.bfe849b9.chunk.css",
-    "static/js/main.49eae1a8.chunk.js"
+    "static/css/main.3fab2761.chunk.css",
+    "static/js/main.924ec006.chunk.js"
   ]
 }

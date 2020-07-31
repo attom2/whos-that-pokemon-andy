@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "03fec147f5283c246c071a1f87895b6d",
+    "revision": "53a24f8dac858d5a74aa5e55155b7943",
     "url": "/andys-whos-that-pokemon/index.html"
   },
   {
-    "revision": "c56e984d42ab10b82874",
-    "url": "/andys-whos-that-pokemon/static/css/main.bfe849b9.chunk.css"
+    "revision": "697c3a049c7acb24482e",
+    "url": "/andys-whos-that-pokemon/static/css/main.3fab2761.chunk.css"
   },
   {
     "revision": "198d3d3dc8c4f62415a4",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andys-whos-that-pokemon/static/js/2.5f6ccf38.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c56e984d42ab10b82874",
-    "url": "/andys-whos-that-pokemon/static/js/main.49eae1a8.chunk.js"
+    "revision": "697c3a049c7acb24482e",
+    "url": "/andys-whos-that-pokemon/static/js/main.924ec006.chunk.js"
   },
   {
     "revision": "9a3b6c6b9225ffef4f91",
