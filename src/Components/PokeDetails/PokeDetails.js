@@ -33,13 +33,13 @@ const PokeDetails = ({details, isShiny, counter, viewFavorites}) => {
            <h2>{name}</h2>
          </div>
          <figcaption>
-           <p>
+           <p className="stats-p">
              <b>Height:</b><br/>{Math.round(parseInt(details.height)*10)/100}m
            </p>
-           <p>
+           <p className="stats-p">
              <b>Weight:</b><br/>{Math.round(parseInt(details.weight)*10)/100}kg
            </p>
-           <p>
+           <p className="stats-p">
              <b>Type:</b><br/>{pokemonType}
            </p>
          </figcaption>
@@ -64,7 +64,6 @@ const PokeDetails = ({details, isShiny, counter, viewFavorites}) => {
           <p>{favPokeNames}</p>
           <p className="back-msg">Press B to go ◄ </p>
         </div>}
-        
     </figure>
   );
 };
