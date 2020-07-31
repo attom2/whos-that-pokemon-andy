@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/andys-whos-that-pokemon/precache-manifest.6b960d89fbbc1998bbf6459fa541db34.js"
+  "/andys-whos-that-pokemon/precache-manifest.eb6370d3c47d341b0adcd2e81f8eaa7b.js"
 );
 
 self.addEventListener('message', (event) => {
