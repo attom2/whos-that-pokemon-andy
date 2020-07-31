@@ -1,11 +1,11 @@
 @import '../App/App.scss';
 
 .single-pokemon {
-    height: 35vh;
-    -webkit-user-drag: none;
-    margin: 0px;
-    filter: brightness(0);
-    align-self: center;
+  height: 35vh;
+  -webkit-user-drag: none;
+  margin: -2em;
+  filter: brightness(0);
+  align-self: center;
 }
 
 .visible {
@@ -26,7 +26,7 @@
   flex-flow: column;
   justify-content: space-around;
   align-content: center;
-  height: 59vh;
+  height: 49vh;
   width: 78vw;
   margin: 0 auto;
 }
@@ -75,7 +75,6 @@
 
 @media screen and (min-width: 600px) {
    .pokedex-screen-game {
-    width: 29vw;
     width: 43vw;
   }
   .pokedex-outline {
