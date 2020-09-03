@@ -80,7 +80,7 @@ const App = () => {
       >
         {allPokemon.length && <Route
           exact
-          path="/game"
+          path="/andys-whos-that-pokemon"
           render={() => (
             <Game
               getRandomPokemons={getRandomPokemons}
@@ -100,7 +100,7 @@ const App = () => {
             />}
         />
         <Route path='/'>
-          <Redirect to='/game' />
+          <Redirect to='/andys-whos-that-pokemon' />
         </Route>
       </AppContext.Provider>
     </main>

@@ -3,7 +3,7 @@ header {
   border-left: 2px solid;
   border-right: 2px solid;
   box-sizing: border-box;
-  height: 23vh;
+  height: 18vh;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -15,7 +15,7 @@ header {
 
 .pokemon-title {
   font-family: 'Pokemon Solid Normal';
-  font-size: 34px;
+  font-size: 26px;
   -webkit-text-stroke: 1px #2a75bb;
   -webkit-text-fill-color: #ffcb05;
   letter-spacing: 2px;
@@ -24,8 +24,7 @@ header {
 }
 
 .Pokédex {
-  font-size: 56px;
-  margin-bottom: 11px;
+  font-size: 40px;
 }
 
 @font-face {
@@ -80,6 +79,9 @@ button {
     width: 60%;
     margin-left: 20%;
   }
+  .pokemon-title {
+    font-size: 36px;
+  }
 }
 
 @media screen and (min-width: 750px){
@@ -87,6 +89,9 @@ button {
     width: 60%;
     margin-left: 20%;
   }
+  .Pokédex {
+  font-size: 54px;
+}
 }
 
 @media screen and (max-height: 600px) {
@@ -108,8 +113,8 @@ button {
 
 @media screen and (min-width: 1035px){
   .pokemon-title {
-      height: 10vh;
-      width: 20vw;
-      margin-bottom: 4vh;
+      // height: 10vh;
+      // width: 20vw;
+      // margin-bottom: 4vh;
   }
 }
