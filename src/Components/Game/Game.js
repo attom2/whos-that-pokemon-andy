@@ -13,6 +13,7 @@ const Game = ({ getRandomPokemons, fetchSinglePokemon, allPokemon}) => {
   const [pokemonChoices, setPokemonChoices] = useState(pokemons);
   const wrongSoundObj = new Audio(wrongSound);
   const rightSoundObj = new Audio(rightSound);
+  const pokemonSong = new Audio(pokeSound);
   const [imageClassName, setImageClassName] = useState('single-pokemon');
   const [isWinner, setIsWinner] = useState(false);
   const { singlePokemon, bestCounter, setBestCounter } = useContext(AppContext);
@@ -56,7 +57,10 @@ const Game = ({ getRandomPokemons, fetchSinglePokemon, allPokemon}) => {
       setIsWinner(false);
     }
   };
-
+  
+  const playPokemonSong = () => {
+    pokemonSong.play();
+  };
 
   const togglePokemonDisplay = () => {
     setImageClassName('single-pokemon visible');
@@ -74,14 +78,20 @@ const Game = ({ getRandomPokemons, fetchSinglePokemon, allPokemon}) => {
 
   return (
     <>
-
-      <section className='pokedex-outline'>
+      <section className="pokedex-outline">
+        <button onClick={() => playPokemonSong() }>
+          <span role="img" aria-label="speaker">
+            🔉
+          </span>
+        </button>
         <section className="pokedex-screen-game" alt="game-section">
           {singlePokemon.sprites && (
             <>
               <section className="tile-holder">
                 <div className="streak-tile">
-                  <h4 className="tile-font">Winning Streak: {`${winCounter}`}</h4>
+                  <h4 className="tile-font">
+                    Winning Streak: {`${winCounter}`}
+                  </h4>
                 </div>
                 <div className="best-tile">
                   <h4 className="tile-font">Best Streak: {`${bestCounter}`}</h4>
@@ -104,13 +114,13 @@ const Game = ({ getRandomPokemons, fetchSinglePokemon, allPokemon}) => {
                   <h2>{singlePokemon.name}</h2>
                 )}
               </section>
-              {imageClassName !== "single-pokemon visible" &&
-              <section alt="user-choices" className="choices">
-                <section className="choices">{createOptionList()}</section>
-              </section>}
+              {imageClassName !== "single-pokemon visible" && (
+                <section alt="user-choices" className="choices">
+                  <section className="choices">{createOptionList()}</section>
+                </section>
+              )}
             </>
           )}
-          <audio src={pokeSound} autoPlay />
         </section>
         <div className="controller">
           <div className="d-pad-container">
@@ -118,8 +128,7 @@ const Game = ({ getRandomPokemons, fetchSinglePokemon, allPokemon}) => {
             <div className="d-pad left"></div>
             <div className="d-pad middle"></div>
             <div className="d-pad right"></div>
-            <div className="d-pad bottom">
-            </div>
+            <div className="d-pad bottom"></div>
           </div>
           <div className="control-buttons">
             <div className="buttons">B</div>
